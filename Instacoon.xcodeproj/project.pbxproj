@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920D9CDF295624A0009FD6EE /* VeganStyle.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 920D9CDE295624A0009FD6EE /* VeganStyle.ttf */; };
+		920D9CE3295650FA009FD6EE /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D9CE2295650FA009FD6EE /* StoryView.swift */; };
+		926F8C19295619FC00944A57 /* reference_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 926F8C18295619FC00944A57 /* reference_dark.png */; };
+		926F8C1B29561AA600944A57 /* reference_light.png in Resources */ = {isa = PBXBuildFile; fileRef = 926F8C1A29561AA600944A57 /* reference_light.png */; };
+		926F8C1E29561B5C00944A57 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926F8C1D29561B5C00944A57 /* HeaderView.swift */; };
 		92B54FE929560E3C00608D6C /* InstacoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B54FE829560E3C00608D6C /* InstacoonApp.swift */; };
 		92B54FEB29560E3C00608D6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B54FEA29560E3C00608D6C /* ContentView.swift */; };
 		92B54FED29560E3D00608D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B54FEC29560E3D00608D6C /* Assets.xcassets */; };
@@ -14,6 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		920D9CDE295624A0009FD6EE /* VeganStyle.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VeganStyle.ttf; sourceTree = "<group>"; };
+		920D9CE2295650FA009FD6EE /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		926F8C18295619FC00944A57 /* reference_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reference_dark.png; sourceTree = "<group>"; };
+		926F8C1A29561AA600944A57 /* reference_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reference_light.png; sourceTree = "<group>"; };
+		926F8C1D29561B5C00944A57 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		926F8C2329561E9F00944A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		92B54FE529560E3C00608D6C /* Instacoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instacoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B54FE829560E3C00608D6C /* InstacoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstacoonApp.swift; sourceTree = "<group>"; };
 		92B54FEA29560E3C00608D6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		926F8C1C29561B4300944A57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				92B54FEA29560E3C00608D6C /* ContentView.swift */,
+				920D9CE2295650FA009FD6EE /* StoryView.swift */,
+				926F8C1D29561B5C00944A57 /* HeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		92B54FDC29560E3C00608D6C = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +72,10 @@
 		92B54FE729560E3C00608D6C /* Instacoon */ = {
 			isa = PBXGroup;
 			children = (
+				920D9CDE295624A0009FD6EE /* VeganStyle.ttf */,
+				926F8C2329561E9F00944A57 /* Info.plist */,
 				92B54FE829560E3C00608D6C /* InstacoonApp.swift */,
-				92B54FEA29560E3C00608D6C /* ContentView.swift */,
+				926F8C1C29561B4300944A57 /* Views */,
 				92B54FEC29560E3D00608D6C /* Assets.xcassets */,
 				92B54FEE29560E3D00608D6C /* Preview Content */,
 			);
@@ -63,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				92B54FEF29560E3D00608D6C /* Preview Assets.xcassets */,
+				926F8C18295619FC00944A57 /* reference_dark.png */,
+				926F8C1A29561AA600944A57 /* reference_light.png */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -126,7 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				92B54FF029560E3D00608D6C /* Preview Assets.xcassets in Resources */,
+				926F8C1B29561AA600944A57 /* reference_light.png in Resources */,
 				92B54FED29560E3D00608D6C /* Assets.xcassets in Resources */,
+				920D9CDF295624A0009FD6EE /* VeganStyle.ttf in Resources */,
+				926F8C19295619FC00944A57 /* reference_dark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +166,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				92B54FEB29560E3C00608D6C /* ContentView.swift in Sources */,
+				926F8C1E29561B5C00944A57 /* HeaderView.swift in Sources */,
+				920D9CE3295650FA009FD6EE /* StoryView.swift in Sources */,
 				92B54FE929560E3C00608D6C /* InstacoonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,11 +300,12 @@
 				DEVELOPMENT_TEAM = 9N8X2985G9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Instacoon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +330,12 @@
 				DEVELOPMENT_TEAM = 9N8X2985G9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Instacoon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
