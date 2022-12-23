@@ -21,6 +21,7 @@
 /* Begin PBXFileReference section */
 		920D9CDE295624A0009FD6EE /* VeganStyle.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VeganStyle.ttf; sourceTree = "<group>"; };
 		920D9CE2295650FA009FD6EE /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		920D9CE429565F9C009FD6EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		926F8C18295619FC00944A57 /* reference_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reference_dark.png; sourceTree = "<group>"; };
 		926F8C1A29561AA600944A57 /* reference_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reference_light.png; sourceTree = "<group>"; };
 		926F8C1D29561B5C00944A57 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 		92B54FDC29560E3C00608D6C = {
 			isa = PBXGroup;
 			children = (
+				920D9CE429565F9C009FD6EE /* README.md */,
 				92B54FE729560E3C00608D6C /* Instacoon */,
 				92B54FE629560E3C00608D6C /* Products */,
 			);
