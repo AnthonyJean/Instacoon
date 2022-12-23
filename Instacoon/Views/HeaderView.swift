@@ -20,7 +20,7 @@ struct HeaderView: View {
             HeaderButtonsView()
         }
         .frame(maxWidth: .infinity)
-        .frame(height: 60.0)
+        .frame(height: 40.0)
         .background {
             Color("AppBackgroundColor")
         }
